@@ -4,7 +4,13 @@ A Jenkins CI/CD pipeline built on top of the vProfile reference application (Spr
 
 ## What this is
 
-The application code (Spring MVC + MySQL account management app) is the standard vProfile training project used in DevOps CI/CD courses. My work here is the pipeline around it: a customized `Jenkinsfile` and supporting Ansible/userdata scripts for a self-hosted Jenkins → Nexus → SonarQube → Tomcat pipeline.
+This repository is a copy of the **vProfile** DevOps course project, used to practise a Jenkins -> Nexus -> SonarQube -> Tomcat CI/CD pipeline on EC2 instances. It is a learning exercise, not an original application or pipeline design.
+
+## Credits and attribution
+
+- The application code, `Jenkinsfile`, `ansible/vprofile.yml`, the `userdata/` provisioning scripts and the commit history before 2026 come from the upstream vProfile project, published by **devopshydclub / Visualpath** (see [devopshydclub/vprofile-project](https://github.com/devopshydclub/vprofile-project)); that history lists contributors including Wahid Khan and Imran Teli. They are credited here as the authors of that work.
+- No licence file is included in this repository; check the upstream project for its terms before reusing the code.
+- The only change recorded in this repository's history under my account is the rewrite of this README. Any local modifications I made while following the course are not separately tracked here.
 
 ## Pipeline
 
