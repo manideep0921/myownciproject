@@ -1,0 +1,16 @@
+# Maven / Java build output
+target/
+*.class
+*.war
+*.jar
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+# OS
+.DS_Store
+# Local env / secrets
+.env
+*.pem
